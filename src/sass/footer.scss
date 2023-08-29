@@ -1,0 +1,46 @@
+.footer {
+  padding: 52px 0 40px;
+  color: #ffffff;
+  background-color: #6ca1ac;
+  font-size: 20px;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 14px;
+}
+
+.footer__type-logo {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 900;
+  text-decoration: none;
+  margin-left: 2px;
+}
+
+.footer__title {
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-transform: lowercase;
+}
+
+.footer__contacts {
+  display: flex;
+  flex-direction: column;
+  row-gap: 14px;
+  margin-bottom: 25px;
+}
+
+.footer__contacts-item {
+  color: #fff;
+  font-feature-settings: 'clig' off, 'liga' off;
+  line-height: 24px;
+  font-style: normal;
+  letter-spacing: 0.5px;
+
+  &--email {
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,16 @@
+.site-list {
+  display: flex;
+  column-gap: 61px;
+  align-items: flex-end;
+}
+
+.site-list__link {
+  padding-top: 10px;
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+  text-transform: uppercase;
+}

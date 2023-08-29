@@ -1,0 +1,35 @@
+.about {
+  padding-top: 38px;
+  padding-bottom: 14px;
+}
+
+.about__title {
+  margin-bottom: 39px;
+}
+
+.about__text-wrapper {
+  width: 95%;
+  margin-bottom: 72px;
+}
+
+.about__text {
+  font-size: 20px;
+  line-height: 31px;
+  text-indent: 48px;
+  text-align: justify;
+
+  &:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
+.about__link {
+  color: #000;
+  font-family: Tahoma;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 29px;
+  text-transform: lowercase;
+  padding-left: 28px;
+}

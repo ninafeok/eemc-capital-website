@@ -10,4 +10,9 @@
   &--light {
     color: #fff;
   }
+
+  @media (max-width: 1023px) {
+    font-size: 30px;
+    line-height: 110%;
+  }
 }
